@@ -85,8 +85,11 @@ selection_char=">"
 # Tamaño máximo del nombre
 name_length=16
 
+# Directorio del script
+basedir="$(diname "${0}")"
+
 # Directorio base
-basepath="./storage_mvp"
+basepath="${basedir}/storage_mvp"
 
 # Fichero de log
 logfile="${basepath}/access.log"
