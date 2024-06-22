@@ -86,7 +86,7 @@ selection_char=">"
 name_length=16
 
 # Directorio del script
-basedir="$(diname "${0}")"
+basedir="$(dirname "${0}")"
 
 # Directorio base
 basepath="${basedir}/storage_mvp"
